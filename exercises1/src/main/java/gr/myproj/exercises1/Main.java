@@ -11,11 +11,5 @@ public class Main {
         //Exercises on simple algorithms is in the class with name simpleAlgorithms
         //Exercises on arrays, collections is in the class with name CollectionClass
         //String class exercise is in the class with the name StringClass
-
     }
-
-
-
-
-
 }

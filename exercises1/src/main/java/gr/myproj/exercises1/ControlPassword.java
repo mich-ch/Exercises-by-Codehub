@@ -26,8 +26,10 @@ public class ControlPassword {
             //If 3,6 or 4,6 criteria are met, print “Password OK”
             if ((flags.get(2) && flags.get(3)) || (flags.get(3) && flags.get(5)))
                 System.out.println("Password OK");
+            //If 5,6 criteria are met, print “Strong password”
             else if (flags.get(4) && flags.get(5))
                 System.out.println("Strong password");
+            //If all criteria are met, print “Very Strong password”
             else if (count == 6)
                 System.out.println("Very Strong password");
             return true;
