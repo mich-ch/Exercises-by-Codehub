@@ -22,6 +22,7 @@ public class ControlPassword {
             if(flag)
                 count++;
 
+
         if(count > 2 && flags.get(4)) {
             //If 3,6 or 4,6 criteria are met, print “Password OK”
             if ((flags.get(2) && flags.get(3)) || (flags.get(3) && flags.get(5)))
